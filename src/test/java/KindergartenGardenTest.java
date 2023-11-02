@@ -1,5 +1,3 @@
-package tdd;
-
 import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
@@ -15,6 +13,7 @@ import org.junit.Test;
  */
 public class KindergartenGardenTest {
 
+
 	@Test
 	public void singleStudent() {
 		String student = "Alice";
@@ -26,7 +25,6 @@ public class KindergartenGardenTest {
 				new KindergartenGarden(plants).getPlantsOfStudent(student));
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void singleStudent2() {
 		String student = "Alice";
@@ -38,7 +36,6 @@ public class KindergartenGardenTest {
 				new KindergartenGarden(plants).getPlantsOfStudent(student));
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void twoStudents() {
 		String student = "Bob";
@@ -50,7 +47,7 @@ public class KindergartenGardenTest {
 				new KindergartenGarden(plants).getPlantsOfStudent(student));
 	}
 
-	@Ignore("Remove to run test")
+
 	@Test
 	public void oneGardenSecondStudent() {
 		String student = "Bob";
@@ -62,7 +59,6 @@ public class KindergartenGardenTest {
 				new KindergartenGarden(plants).getPlantsOfStudent(student));
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void oneGardenThirdStudent() {
 		String student = "Charlie";
@@ -74,7 +70,6 @@ public class KindergartenGardenTest {
 				new KindergartenGarden(plants).getPlantsOfStudent(student));
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void fullGardenFirstStudent() {
 		String student = "Alice";
@@ -86,7 +81,7 @@ public class KindergartenGardenTest {
 				new KindergartenGarden(plants).getPlantsOfStudent(student));
 	}
 
-	@Ignore("Remove to run test")
+
 	@Test
 	public void fullGardenSecondStudent() {
 		String student = "Bob";
@@ -98,7 +93,7 @@ public class KindergartenGardenTest {
 				new KindergartenGarden(plants).getPlantsOfStudent(student));
 	}
 
-	@Ignore("Remove to run test")
+
 	@Test
 	public void fullGardenSecondToLastStudent() {
 		String student = "Kincaid";
@@ -110,7 +105,6 @@ public class KindergartenGardenTest {
 				new KindergartenGarden(plants).getPlantsOfStudent(student));
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void fullGardenLastStudent() {
 		String student = "Larry";
@@ -122,7 +116,6 @@ public class KindergartenGardenTest {
 				new KindergartenGarden(plants).getPlantsOfStudent(student));
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void customStudentGardenFirstStudent() {
 		String[] studentArray = { "Patricia", "Roger", "Samantha", "Xander" };
@@ -136,7 +129,7 @@ public class KindergartenGardenTest {
 						.getPlantsOfStudent(student));
 	}
 
-	@Ignore("Remove to run test")
+
 	@Test
 	public void customStudentGardenFirstStudentInAlphabeticalOrder() {
 		String[] studentArray = { "Samantha", "Patricia", "Xander", "Roger" };
@@ -150,7 +143,7 @@ public class KindergartenGardenTest {
 						.getPlantsOfStudent(student));
 	}
 
-	@Ignore("Remove to run test")
+
 	@Test
 	public void customStudentGardenSecondStudentInAlphabeticalOrder() {
 		String[] studentArray = { "Samantha", "Patricia", "Xander", "Roger" };
@@ -164,7 +157,6 @@ public class KindergartenGardenTest {
 						.getPlantsOfStudent(student));
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void customStudentGardenThirdStudentInAlphabeticalOrder() {
 		String[] studentArray = { "Samantha", "Patricia", "Xander", "Roger" };
@@ -178,7 +170,6 @@ public class KindergartenGardenTest {
 						.getPlantsOfStudent(student));
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void customStudentGardenFourthStudentInAlphabeticalOrder() {
 		String[] studentArray = { "Samantha", "Patricia", "Xander", "Roger" };

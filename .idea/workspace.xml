@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ed76c4f-d2fc-43cb-95af-0452d9778a64" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/KindergartenGarden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KindergartenGardenTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Xal6pBSzOw5blxgfmpN7p9qhcP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,9 +37,81 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.KindergartenGardenTest.customStudentGardenFourthStudentInAlphabeticalOrder">
+    <configuration name="KindergartenGardenTest.customStudentGardenFirstStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kindergarten-garden" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KindergartenGardenTest" />
+      <option name="METHOD_NAME" value="customStudentGardenFirstStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KindergartenGardenTest.customStudentGardenFirstStudentInAlphabeticalOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kindergarten-garden" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KindergartenGardenTest" />
+      <option name="METHOD_NAME" value="customStudentGardenFirstStudentInAlphabeticalOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KindergartenGardenTest.customStudentGardenFourthStudentInAlphabeticalOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kindergarten-garden" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KindergartenGardenTest" />
+      <option name="METHOD_NAME" value="customStudentGardenFourthStudentInAlphabeticalOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KindergartenGardenTest.customStudentGardenSecondStudentInAlphabeticalOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kindergarten-garden" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KindergartenGardenTest" />
+      <option name="METHOD_NAME" value="customStudentGardenSecondStudentInAlphabeticalOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KindergartenGardenTest.customStudentGardenThirdStudentInAlphabeticalOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kindergarten-garden" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KindergartenGardenTest" />
+      <option name="METHOD_NAME" value="customStudentGardenThirdStudentInAlphabeticalOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.KindergartenGardenTest.customStudentGardenFourthStudentInAlphabeticalOrder" />
+        <item itemvalue="JUnit.KindergartenGardenTest.customStudentGardenThirdStudentInAlphabeticalOrder" />
+        <item itemvalue="JUnit.KindergartenGardenTest.customStudentGardenSecondStudentInAlphabeticalOrder" />
+        <item itemvalue="JUnit.KindergartenGardenTest.customStudentGardenFirstStudentInAlphabeticalOrder" />
+        <item itemvalue="JUnit.KindergartenGardenTest.customStudentGardenFirstStudent" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,8 +120,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698874900590</updated>
-      <workItem from="1698874901731" duration="1000" />
+      <workItem from="1698874901731" duration="5014000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
