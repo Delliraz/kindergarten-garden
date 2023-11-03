@@ -1,15 +1,11 @@
 import java.util.*;
+import java.util.stream.Stream;
 
 public class KindergartenGarden {
     private List<String> allNames = List.of("Alice", "Bob", "Charlie", "David", "Eve", "Fred", "Ginny", "Harriet", "Ileana", "Joseph", "Kincaid", "Larry");
     private Map<Integer, List<Plant>> allPlants;
 
-
     public KindergartenGarden(String plants) {
-        this.initializePlants(plants);
-    }
-
-    private void initializePlants(String plants) {
         List<String> strings = List.of(plants.split("\n"));
         this.allPlants = new HashMap<>();
         for (int i = 0; i < strings.size(); i++) {
@@ -23,9 +19,8 @@ public class KindergartenGarden {
     }
 
     public KindergartenGarden(String plants, String[] names) {
-        this.allNames = List.of(names);
-        this.allNames = this.allNames.stream().sorted().toList();
-        this.initializePlants(plants);
+        this(plants);
+        this.allNames = Stream.of(names).sorted().toList();
     }
 
     public List<Plant> getPlantsOfStudent(String name) {
